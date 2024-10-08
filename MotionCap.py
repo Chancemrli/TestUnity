@@ -7,7 +7,7 @@ import socket
 import numpy as np
 
 
-"""def SendImageToUnity(image, client, encode_param):
+ """def SendImageToUnity(image, client, encode_param):
     result, imgencode = cv2.imencode('.jpg', image, encode_param)
     # 建立矩阵
     data = numpy.array(imgencode)
